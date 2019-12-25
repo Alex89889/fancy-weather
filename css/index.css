@@ -1,0 +1,509 @@
+*{margin:0;padding:0}
+.wrapper{
+	width:1200px;
+	height:100%;
+	margin:0 auto;
+	background-size: 100%;
+}
+
+.header-fancy{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.button-group{
+	margin: 4.2% 4.2%;
+	width: 50%;
+}
+
+.button{
+	background: #8080;
+	border-radius: 5px;
+	margin-right: 10px;
+	color: white;
+}
+
+.button-refresh{
+	background-image: url(../img/vector.png);
+	background-repeat:no-repeat;
+	background-position:11px 11px;
+	width: 44px;
+	height: 44px;
+}
+
+.button-F{
+	width: 44px;
+	height: 44px;
+}
+
+.button-C{
+	width: 44px;
+	height: 44px;
+}
+.button-lang{
+	width: 64px;
+	height: 44px;
+	background-color: #8080;
+	padding-left: 5px;
+}
+
+
+.button-search{
+	margin-right: 50px;
+}
+
+.search{
+	width: 100px;
+	height: 44px;
+}
+
+.search-input{
+	height: 40px;
+	width: 150px;
+	padding-left: 5px;
+	background-color: #8080;
+	color: white;
+}
+
+.city{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 3.6vw;
+	line-height: 4.2vw;
+	text-transform: uppercase;	
+	color: #FFFFFF;
+}
+
+.main-weather{
+	margin-left: 4.2%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.date{
+	margin-top: 20px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 2vw;
+	line-height: 2.4vw;
+	color: #FFFFFF;
+}
+
+.today-weather{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.today-degree{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 8.5vw;
+	line-height: 12vw;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.today-description{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.2vw;
+	line-height: 2.5vw;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.weather{
+	width: 50%;
+}
+.free-days-weather{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.free-days-weather-day{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.8vw;
+	line-height: 2.2vw;
+	text-transform: uppercase;	
+	color: #FFFFFF;
+}
+
+.free-days-weather-degree{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 4.6vw;
+	line-height: 7.5vw;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.today-cloud{
+	background-position:11px 11px;
+	width: 130px;
+	height: 220px;
+}
+.img-0{
+	background-image: url(../img/0.gif);
+	background-repeat:no-repeat;
+}
+.img-01d{
+	background-image: url(../img/01d.gif);
+	background-repeat:no-repeat;
+}
+.img-01n{
+	background-image: url(../img/01n.gif);
+	background-repeat:no-repeat;
+}
+.img-1{
+	background-image: url(../img/1.gif);
+	background-repeat:no-repeat;
+}
+.img-01d{
+	background-image: url(../img/01d.gif);
+	background-repeat:no-repeat;
+}
+.img-02d{
+	background-image: url(../img/02d.gif);
+	background-repeat:no-repeat;
+}
+.img-02n{
+	background-image: url(../img/02n.gif);
+	background-repeat:no-repeat;
+}
+.img-2{
+	background-image: url(../img/2.gif);
+	background-repeat:no-repeat;
+}
+.img-03d{
+	background-image: url(../img/03d.gif);
+	background-repeat:no-repeat;
+}
+.img-03n{
+	background-image: url(../img/03n.gif);
+	background-repeat:no-repeat;
+}
+.img-3{
+	background-image: url(../img/3.gif);
+	background-repeat:no-repeat;
+}
+.img-04d{
+	background-image: url(../img/04d.gif);
+	background-repeat:no-repeat;
+}
+.img-04n{
+	background-image: url(../img/04n.gif);
+	background-repeat:no-repeat;
+}
+.img-4{
+	background-image: url(../img/4.gif);
+	background-repeat:no-repeat;
+}
+.img-5{
+	background-image: url(../img/5.gif);
+	background-repeat:no-repeat;
+}
+.img-6{
+	background-image: url(../img/6.gif);
+	background-repeat:no-repeat;
+}
+.img-7{
+	background-image: url(../img/7.gif);
+	background-repeat:no-repeat;
+}
+.img-8{
+	background-image: url(../img/8.gif);
+	background-repeat:no-repeat;
+}
+.img-09d{
+	background-image: url(../img/09d.gif);
+	background-repeat:no-repeat;
+}
+.img-09n{
+	background-image: url(../img/09n.gif);
+	background-repeat:no-repeat;
+}
+.img-9{
+	background-image: url(../img/9.gif);
+	background-repeat:no-repeat;
+}
+.img-10{
+	background-image: url(../img/10.gif);
+	background-repeat:no-repeat;
+}
+.img-10d{
+	background-image: url(../img/10d.gif);
+	background-repeat:no-repeat;
+}
+.img-10n{
+	background-image: url(../img/10n.gif);
+	background-repeat:no-repeat;
+}
+.img-11{
+	background-image: url(../img/11.gif);
+	background-repeat:no-repeat;
+}
+.img-11d{
+	background-image: url(../img/11d.gif);
+	background-repeat:no-repeat;
+}
+.img-11n{
+	background-image: url(../img/11n.gif);
+	background-repeat:no-repeat;
+}
+.img-12{
+	background-image: url(../img/12.gif);
+	background-repeat:no-repeat;
+}
+.img-13{
+	background-image: url(../img/13.gif);
+	background-repeat:no-repeat;
+}
+.img-13n{
+	background-image: url(../img/13n.gif);
+	background-repeat:no-repeat;
+}
+.img-13d{
+	background-image: url(../img/13d.gif);
+	background-repeat:no-repeat;
+}
+.img-13{
+	background-image: url(../img/13.gif);
+	background-repeat:no-repeat;
+}
+.img-14{
+	background-image: url(../img/14.gif);
+	background-repeat:no-repeat;
+}
+.img-15{
+	background-image: url(../img/15.gif);
+	background-repeat:no-repeat;
+}
+.img-16{
+	background-image: url(../img/16.gif);
+	background-repeat:no-repeat;
+}
+.img-17{
+	background-image: url(../img/17.gif);
+	background-repeat:no-repeat;
+}
+.img-18{
+	background-image: url(../img/18.gif);
+	background-repeat:no-repeat;
+}
+.img-19{
+	background-image: url(../img/19.gif);
+	background-repeat:no-repeat;
+}
+.img-20{
+	background-image: url(../img/20.gif);
+	background-repeat:no-repeat;
+}
+.img-21{
+	background-image: url(../img/21.gif);
+	background-repeat:no-repeat;
+}
+.img-22{
+	background-image: url(../img/22.gif);
+	background-repeat:no-repeat;
+}
+.img-23{
+	background-image: url(../img/23.gif);
+	background-repeat:no-repeat;
+}
+.img-23{
+	background-image: url(../img/23.gif);
+	background-repeat:no-repeat;
+}
+.img-24{
+	background-image: url(../img/24.gif);
+	background-repeat:no-repeat;
+}
+.img-25{
+	background-image: url(../img/25.gif);
+	background-repeat:no-repeat;
+}
+.img-26{
+	background-image: url(../img/26.gif);
+	background-repeat:no-repeat;
+}
+.img-27{
+	background-image: url(../img/27.gif);
+	background-repeat:no-repeat;
+}
+.img-28{
+	background-image: url(../img/28.gif);
+	background-repeat:no-repeat;
+}
+.img-29{
+	background-image: url(../img/29.gif);
+	background-repeat:no-repeat;
+}
+.img-31{
+	background-image: url(../img/31.gif);
+	background-repeat:no-repeat;
+}
+.img-32{
+	background-image: url(../img/32.gif);
+	background-repeat:no-repeat;
+}
+.img-33{
+	background-image: url(../img/33.gif);
+	background-repeat:no-repeat;
+}
+.img-34{
+	background-image: url(../img/34.gif);
+	background-repeat:no-repeat;
+}
+.img-35{
+	background-image: url(../img/35.gif);
+	background-repeat:no-repeat;
+}
+.img-36{
+	background-image: url(../img/36.gif);
+	background-repeat:no-repeat;
+}
+.img-37{
+	background-image: url(../img/37.gif);
+	background-repeat:no-repeat;
+}
+.img-38{
+	background-image: url(../img/38.gif);
+	background-repeat:no-repeat;
+}
+.img-39{
+	background-image: url(../img/39.gif);
+	background-repeat:no-repeat;
+}
+.img-40{
+	background-image: url(../img/40.gif);
+	background-repeat:no-repeat;
+}
+.img-41{
+	background-image: url(../img/41.gif);
+	background-repeat:no-repeat;
+}
+.img-42{
+	background-image: url(../img/42.gif);
+	background-repeat:no-repeat;
+}
+.img-43{
+	background-image: url(../img/43.gif);
+	background-repeat:no-repeat;
+}
+.img-44{
+	background-image: url(../img/44.gif);
+	background-repeat:no-repeat;
+}
+.img-45{
+	background-image: url(../img/45.gif);
+	background-repeat:no-repeat;
+}
+.img-46{
+	background-image: url(../img/46.gif);
+	background-repeat:no-repeat;
+}
+.img-47{
+	background-image: url(../img/47.gif);
+	background-repeat:no-repeat;
+}
+
+.free-days-weather-cloud{
+	background-position:11px 11px;
+	width: 150px;
+	height: 100px;
+}
+.map-latitude{
+	margin-top:5%;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.6vw;
+	line-height: 2.2vw;
+	text-align: right;
+	text-transform: capitalize;
+	color: #FFFFFF;
+}
+
+.map-longitude{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.6vw;
+	line-height: 2.2vw;
+	text-align: right;
+	text-transform: capitalize;
+	color: #FFFFFF;
+}
+
+.map-section{
+	margin-right: 4.2%;
+	
+}
+
+.map-container{
+	position: relative;
+	width: 375px;
+	height: 375px;
+}
+
+.load-map{
+	width: 100%;
+	height: 100%;
+	position: absolute; top: 0; bottom: 0; 
+}
+@media (max-width: 320px) {
+	.wrapper{
+		width:320px;
+		background-image: none;
+		background-color: gray;
+	}
+	.header-fancy{
+		flex-direction: column;
+	}
+	.button-group{
+		margin: 20px 0 20px 30px;
+		width: 90%; 
+	}
+	.button-search{
+		width: 90%;
+		margin-right: 0px; 
+		padding: 0 10% 20% 20%;
+	}
+	.main-weather{
+		width:90%;
+		flex-direction: column;
+	}
+	.weather {
+		width: 80%;
+		padding-bottom: 20%;
+	}
+	.map-section{
+		margin-right: 0;
+	}
+
+	.map-container{
+		width: 300px;
+		height: 300px;
+	}
+	.free-days-weather-cloud{
+		display:none;
+	}
+	.search-input{
+		width: 100px;
+	}
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Fancy Weather</title>
+	 <script src="https://api-maps.yandex.ru/2.1/?apikey=7130ecdb-b39c-4305-abff-6ed81a929e80&lang=ru_RU" type="text/javascript">
+    </script>
+	<link rel="stylesheet" href="css/index.css" />
+	
+  
+</head>
+<body>
+    <div class="wrapper" id="wrapper">
+        <header class="header-fancy">
+			<div class="button-group">
+				<button class="button button-refresh" id="revert">.</button>
+				<select class="button button-lang">
+					<option>En</option>
+					<option>Ru</option>
+					<option>Be</option>
+				</select>
+				
+				<button class="button button-F">°F</button>
+				<button class="button button-C">°C</button>
+			</div>
+			
+			<div class="button-search">
+				<input placeholder="Search city" class="search-input" id="search-input">
+				<button class="button search" id="search">SEARCH</button>
+			</div>
+        </header>
+		<main class="main-weather">
+            <section class="weather">
+				<div class="sity-date">
+					<p class="city" id="city"></p>
+					<p class="date" id = "date"></p>
+				</div>
+				<div class="today-weather">
+					<div class="today-degree" id="today-degree"></div>
+					<div class="today-cloud" id="cloud">
+						
+					</div>
+					<div class="today-description">
+						<p>overcast</p>
+						<p>Weather description: <span id="weath-des"></span></p>
+						<p>Feels like: <span id="fels-like"></span>°</p>
+						<p>Wind: <span id="wind"></span> m/s </p>
+						<p>Humidity: <span id="humanuty"></span>%</p>
+					</div>
+				</div>
+				<div class="free-days-weather">
+					<div class="free-days-weather-item">
+						<div class="free-days-weather-cloud" id="cloud1"></div>
+						<p class="free-days-weather-day" id="day1"></p>
+						<p class="free-days-weather-degree"><span id="degree1"></span>°</p>
+						
+					</div>
+					<div class="free-days-weather-item">
+						<div class="free-days-weather-cloud" id="cloud2"></div>
+						<p class="free-days-weather-day" id="day2"></p>
+						<p class="free-days-weather-degree"><span id="degree2"></span>°</p>
+						
+					</div>
+					<div class="free-days-weather-item">
+						<div class="free-days-weather-cloud" id="cloud3"></div>
+						<p class="free-days-weather-day" id="day3"></p>
+						<p class="free-days-weather-degree"><span id="degree3"></span>°</p>	
+					</div>
+				</div>
+			</section>
+            <section class="map-section">
+				<div class="map-container">
+					<div class="load-map" id="map"></div>
+				</div>
+				<p class="map-latitude">Latitude: <span id="latitude"></span></p>
+				<p class="map-longitude">Longitude: <span id="longitude"></span></p>
+			</section>
+        </main>
+    </div>  
+	<script>
+
+</script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/background.js"></script>
+	<script type="text/javascript" src="js/weather.js"></script>
+</body>
+</html>
